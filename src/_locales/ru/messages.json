@@ -225,39 +225,39 @@
     "message": "Сбросить"
   },
   "shipsettings": {
-    "message": "Ship settings"
+    "message": "Настройки корабля"
   },
   "changedroneformation": {
-    "message": "Change Drone Formation"
+    "message": "Изменение формации дроидов"
   },
   "attackformationslot": {
-    "message": "Attack Formation Slot: "
+    "message": "Слот формации атаки: "
   },
   "flyingformationslot": {
-    "message": "Flying Formation Slot: "
+    "message": "Слот формации полёта: "
   },
   "droneformations": {
-    "message": "Drone Formations"
+    "message": "Формация дроидов"
   },
   "shipability": {
-    "message": "Ship Ability "
+    "message": "Способность корабля"
   },
   "useability": {
-    "message": "Use Ability"
+    "message": "Использовать способность"
   },
   "abilityslot": {
-    "message": "Ability slot"
+    "message": "Слот способности"
   },
   "camouflageslot": {
-    "message": "Camouflage slot: "
+    "message": "Слот камуфляжа: "
   },
   "enablepet": {
-    "message": "Enable pet and pet repair"
+    "message": "Включить ПЭТ и ремонта ПЭТа"
   },
   "petmodule": {
-    "message": "Pet Module: "
+    "message": "ПЕТ механизм: "
   },
   "petrevivelimit": {
-    "message": "Pet repair limit: <span>(10)</span> "
+    "message": "Лимит ремонта ПЕТа: <span>(10)</span> "
   }
 }
