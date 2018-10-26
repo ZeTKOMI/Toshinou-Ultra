@@ -255,7 +255,7 @@
     "message": "Enable pet and pet repair"
   },
   "petmodule": {
-    "message": "Pet Module: "
+    "message": "Пет механизм: "
   },
   "petrevivelimit": {
     "message": "Pet repair limit: <span>(10)</span> "
