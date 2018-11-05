@@ -7,12 +7,12 @@ class CollectionWindow {
       this.collectionWindow = WindowFactory.createWindow({
         width: 320,
         maxHeight: 300,
-        text: "Collection"
+        text: "Сбор"
       });
   
       let controls = [{
           name: 'bonusBox',
-          labelText: 'Collect boxes',
+          labelText: 'Сбор коробок',
           appendTo: this.collectionWindow,
           event: function () {
             window.settings.settings.bonusBox = this.checked;
@@ -20,7 +20,7 @@ class CollectionWindow {
         },
         {
           name: 'materials',
-          labelText: 'Collect materials',
+          labelText: 'Сбор материала',
           appendTo: this.collectionWindow,
           event: function () {
             window.settings.settings.materials = this.checked;
@@ -28,7 +28,7 @@ class CollectionWindow {
         },
         {
           name: 'cargoBox',
-          labelText: 'Collect cargo',
+          labelText: 'Сбор ресов',
           appendTo: this.collectionWindow,
           event: function () {
             window.settings.settings.cargoBox = this.checked;
