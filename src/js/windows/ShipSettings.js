@@ -2,7 +2,7 @@ class ShipSettings{
     createWindow() {
         this.shipSettingsWindow = WindowFactory.createWindow({
           width: 320,
-          text: "Ship Settings"
+          text: "Настройки корабля"
         });
     
         let controls = [
@@ -131,7 +131,7 @@ class ShipSettings{
             labelText: chrome.i18n.getMessage('reviveat'),
             type: "select",
             appendTo: this.shipSettingsWindow,
-            options: {0:chrome.i18n.getMessage('base'), 1:chrome.i18n.getMessage('gate'), 2:chrome.i18n.getMessage('spot')},
+            options: {0:chrome.i18n.getMessage('базе'), 1:chrome.i18n.getMessage('порту'), 2:chrome.i18n.getMessage('месте')},
             attrs:{
             },
             event: function () {
@@ -172,7 +172,7 @@ class ShipSettings{
             disabled: true && !window.settings.settings.enablePet,
             appendTo: this.shipSettingsWindow,
             labelBefore: true,
-            options: {2:"Guard Mode", 10:"Kamikaze", 4:"Auto loot", 5:"Collect Resource"}, // , 6:"Enemy locator"
+            options: {2:"Защитный режим", 10:"Камикадзе", 4:"Автосбор", 5:"Сбор ресурсов"}, // , 6:"Enemy locator"
             attrs:{
                 class: "petstuff"
             },
