@@ -6,13 +6,13 @@ class AutolockWindow {
     createWindow() {
       this.autolockWindow = WindowFactory.createWindow({
         width: 320,
-        text: "Autolocker"
+        text: "Автолок"
       });
   
       let options = [
         {
           name: 'lockPlayers',
-          labelText: 'Autolock Players (key: z)',
+          labelText: 'Автолок игроков (key: z)(англ. раскладка, работает в хроме)',
           appendTo: this.autolockWindow,
           event: function () {
             window.settings.settings.lockPlayers = this.checked;
@@ -20,7 +20,7 @@ class AutolockWindow {
         },
         {
           name: 'autoAttack',
-          labelText: 'Auto attack Player after lock',
+          labelText: 'Авто атака игрока после лока',
           appendTo: this.autolockWindow,
           event: function () {
             window.settings.settings.autoAttack = this.checked;
@@ -28,7 +28,7 @@ class AutolockWindow {
         },
         {
           name: 'lockNpc',
-          labelText: 'Autolock NPCs (key: x)',
+          labelText: 'Автолок NPCs (key: x)',
           appendTo: this.autolockWindow,
           event: function () {
             window.settings.settings.lockNpc = this.checked;
@@ -36,7 +36,7 @@ class AutolockWindow {
         },
         {
           name: 'excludeNpcs',
-          labelText: 'Exclude NPCs from locking',
+          labelText: 'Исключить NPC из блокировки',
           appendTo: this.autolockWindow,
           event: function () {
             window.settings.settings.excludeNpcs = this.checked;
@@ -44,7 +44,7 @@ class AutolockWindow {
         },
         {
           name: 'autoAttackNpcs',
-          labelText: 'Auto attack NPC after lock',
+          labelText: 'Автоатака NPC после лока',
           appendTo: this.autolockWindow,
           event: function () {
             window.settings.settings.autoAttackNpcs = this.checked;
